@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/blue">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="retour"
+                android:id="@+id/retour2bt"
+                android:textSize="15sp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Inscription"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"/>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="320dp"
+            android:orientation="vertical"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="60dp"
+            android:background="@color/blue">
+
+            <EditText
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nom"
+                    android:id="@+id/nomtxt"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="@color/white"
+                    android:textSize="20sp"
+                    android:padding="10dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginStart="15dp"/>
+
+
+
+                <EditText
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:text="Prénom"
+                    android:id="@+id/prenomtxt"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="@color/white"
+                    android:textSize="20sp"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="15dp" />
+
+                <EditText
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:text="Age"
+                    android:id="@+id/agetxt"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="@color/white"
+                    android:textSize="20sp"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="15dp"/>
+
+                <EditText
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:text="Adresse"
+                    android:id="@+id/adrtxt"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="@color/white"
+                    android:textSize="20sp"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="15dp"/>
+
+                <EditText
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:text="Frais de scolarité"
+                    android:id="@+id/fraitxt"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="@color/white"
+                    android:textSize="20sp"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="15dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/blue"
+            android:layout_marginTop="165dp">
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

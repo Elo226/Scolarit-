@@ -28,8 +28,8 @@
             <Button
                 android:layout_width="310dp"
                 android:layout_height="50dp"
-                android:text="Insight"
-                android:id="@+id/insightbt"
+                android:text="Inscription"
+                android:id="@+id/inscripbt"
                 android:textStyle="bold"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="40dp"/>
